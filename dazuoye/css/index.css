@@ -1,0 +1,527 @@
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,
+	Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+	color: black;
+}
+.topber{
+	width: 100%;
+}
+.container{
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+/* --------导航栏------------ */
+
+/* 导航栏左侧 */
+.header{
+	height: 80px;
+	text-align: center;
+	background-color: white;
+}
+.header .site-logo1{/* 米哈游logo盒子 */
+	float: left;
+	width: 178px;
+	margin-top: 15px;
+}
+
+.header .site-logo1 img{/* 米哈游logo图片 */
+	float: left;
+	width: 130px;
+	margin-left: 0px;
+}
+
+
+.header .site-logo2{/* 崩坏三logo盒子 */
+	float: left;
+	width: 200px;
+	margin-top: 6px;
+}
+
+.header .site-logo2 img{/* 崩坏三logo图片 */
+	float: left;
+	width: 100px;
+	margin-left: 0px;
+}
+
+
+.header .site-logo a{
+	display: block;
+	width: 56px;
+	height: 56px;
+}
+.header .site-list{/* 首页字体 */
+	float: left;
+	width: 400px;
+	height: 70px;
+	padding: 10px 0px 0px 200px;
+	font-size: 21px;
+}
+.header .site-list ul li{/* 列表排列 */
+	float:left;
+}
+.header .site-list ul li a{ /* 首页字体 */
+	display: block;
+	padding: 15px 5px 0px 15px;
+	color: rgba(0, 0, 0, 0.62);
+	font-family: "Microsoft YaHei UI";
+}
+.header .site-list ul li a:hover{/* 鼠标悬浮 */
+	color: #3778E5;
+}
+
+/* tab下拉菜单 */
+.qita {
+  position: relative;
+  display: inline-block;
+  z-index:1;
+}
+.dis {
+	width: 90px;
+	text-align: center;
+	display: none;
+	position:absolute;
+	padding: 5px 0px;
+	font-size: 15px;
+	background-color: #c3fafc;
+	line-height: 30px;
+}
+.dis li a{
+	color: #8ecbfc;
+}
+.qita:hover .dis {
+	display: block;
+}
+
+/* 搜索框 */
+.header .site-search{
+	float: right;
+	width: 296px;
+	margin-top: 25px;
+	/* background-color: #777; */
+}
+.header .site-search from{
+	position: relative;
+	width: 296px;
+	height: 50px;
+}
+.search-text{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #E0E0E0;
+	font-size: 14px;
+	padding: 0 10px;
+	float: left;
+	background-color: lightgray;
+}
+.submit{/* 登入按钮 */
+ 	float: left;
+	width: 50px;
+	height: 32px; 
+	margin-left: -1px;
+	border:0px solid #E0E0E0; 
+	background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+ 
+ .login{/* 登入 */
+ 	float: right;
+ 	margin: 24px 20px 0 0;
+ 	color: #FF7F50;
+ }
+ .login img{width: 35px;}
+ .login a{
+ 	color: #F6F6F6;
+ }
+ .login a:hover{
+ 	color: #FF7F50;
+ }
+/* --------导航栏end--------- */
+
+/* --------动画栏--------- */
+.headers{
+	height: 80px;
+	text-align: center;
+	background-color: #81eafc;
+}
+.headers .site-text{
+	/*float: left;*/
+	width: 900px;
+	height: 70px;
+	padding: 10px 0px 0px 380px;
+	font-size: 40px;
+	color: white;
+	position: center;
+}
+.texts{
+	height:2300px;
+	text-align: left;
+	background-color: white;
+}
+.texts .site-texts{
+	float: left;
+	width: 900px;
+	height: 70px;
+	padding: 10px 0px 0px 380px;
+	font-size: 20px;
+	font-family: "宋体";
+	color: black;
+	/*position: center;*/
+}
+/* --------动画栏end--------- */
+
+/* --------轮播图--------- */
+
+ .site-content{
+	height: 400px;
+	 background-color: rgba(0, 0, 0, 0.06);     //背景色定位测试框
+}
+.site-content2{
+	height: 680px;
+	background-color: rgba(0, 0, 0, 0.06);     //背景色定位测试框
+}
+  /* 轮播图 */
+ #imglist img{
+    width: 1000px;
+    height: 400px;
+	border-radius: 0px;
+}
+#imglist2 img{
+	width: 711px;
+	height: 400px;
+	border-radius: 0px;
+}
+.box {
+    width: 994px;
+    height: 400px;
+    border: 2px #E0E0E0 double;
+    position: relative;
+    left: 200px;
+    overflow:hidden;
+	border-radius: 5px;
+}
+.box2 {
+	width: 994px;
+	height: 400px;
+	border: 2px #E0E0E0 double;
+	position: relative;
+	left: 200px;
+	overflow:hidden;
+	border-radius: 5px;
+}
+#imglist {
+    width: 6000px;
+    height:300px;
+    list-style: none;
+    position: absolute;
+    left: 0px; 
+}
+#imglist li {
+    float: left;
+}
+
+#imglist2 {
+	width: 6000px;
+	height:300px;
+	list-style: none;
+	position: absolute;
+	left: 0px;
+}
+#imglist2 li {
+	float: left;
+}
+
+#btnlist{
+    width: 860px;
+    left: 380px;
+    top:360px;
+    position:absolute;
+    list-style: none;
+}
+#btnlist li{
+    color: black;
+    text-align: center;
+    float: left;
+    width: 50px;
+    height: 10px;
+    border-radius: 70%;
+    background-color:rgba(0, 0, 0, 0.06);
+	cursor: pointer;/* 鼠标悬浮变小手 */
+}
+
+#btnlist2{
+	width: 860px;
+	left: 380px;
+	top:360px;
+	position:absolute;
+	list-style: none;
+}
+#btnlist2 li{
+	color: black;
+	text-align: center;
+	float: left;
+	width: 50px;
+	height: 10px;
+	border-radius: 70%;
+	background-color:rgba(0, 0, 0, 0.06);
+	cursor: pointer;/* 鼠标悬浮变小手 */
+}
+
+/* --------轮播图end--------- */
+
+
+
+/* --------主页内容--------- */
+ .content{
+	height: 350px;
+	 background-color: rgba(0, 0, 0, 0.06);   //背景色定位测试框
+}
+
+.content2{
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.06);   //背景色定位测试框
+}
+
+  /* tab菜单 */
+#tab{
+	width: 1000px;
+	height: 300px;
+	margin-top: 40px;
+	border-radius: 10px;/* 方块圆角 */
+	background-color: #F2F2F2;
+}
+
+#tab2{
+	width: 1400px;
+	height: 300px;
+	margin-top: 0px;
+	border-radius: 10px;/* 方块圆角 */
+	background-color: #F2F2F2;
+}
+
+#tabNav{
+	width: 500px;
+	height: 30px;
+	margin: 10px 0 0 20px;
+}
+#tabNav p{
+	float: left;
+	margin-right: 10px;
+}
+#tabNav ul li{
+	float: left;
+	text-align: center;
+	width: 60px;
+	list-style: none;
+	margin-right: 10px;
+	cursor: pointer;/* 鼠标悬浮变小手 */
+} 
+.active{
+	background-color: #D3D3D3;
+	border-radius: 20px;/* 方块圆角 */
+}
+#main{
+	clear: both;
+}
+.item{
+	display: none;
+	margin-left: 10px;
+}
+.show{
+	display: block;
+}
+/* tab菜单-女武神 */
+.zuixin-left {
+	float: left;
+	width: 320px;
+	height: 200px;
+	position: relative;  /* 相对移动 */
+	top: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 10px;/* 方块圆角 */
+}
+
+
+.zuixin-left img{
+	width: 320px;
+	border-radius: 10px;/* 方块圆角 */
+}
+
+.zuixin-right{
+	width: 630px;
+	height: 230px;
+	float: left;
+	position: relative;/* 相对移动 */
+	top: 10px;
+	left: 30px;
+	/* background-color: #87CEEB; */
+}
+
+.zuixin-rights{
+	width: 630px;
+	height: 230px;
+	float: left;
+	position: relative;/* 相对移动 */
+	top: 10px;
+	left: 30px;
+	/* background-color: #87CEEB; */
+}
+
+.zuixin-right img{
+	width: 150px;
+	border-radius: 10px;/* 方块圆角 */
+}
+.zuixin-right1{
+	float: left;
+	width: 150px;
+	left:50px;
+}
+.zuixin-right2{
+	position: absolute;
+	width: 150px;
+	left:180px;
+}
+.zuixin-right3{
+	position: absolute;
+	left: 360px;
+	width: 150px;
+}
+
+.zuixin-right4{
+	position: absolute;
+	left: 540px;
+	width: 150px;
+}
+
+
+.zuixin-right5{
+	position: absolute;
+	left: 540px;
+	width: 150px;
+}
+
+.zuixin-right6{
+	position: absolute;
+	left: 540px;
+	width: 150px;
+}
+
+.zuixin-right7{
+	position: absolute;
+	left: 540px;
+	width: 150px;
+}
+
+.zuixin-right8{
+	position: absolute;
+	left: 540px;
+	width: 150px;
+}
+
+.zuixin-right1,.zuixin-right2,.zuixin-right3,.zuixin-right4{
+	display: inline-block;
+}
+
+
+
+#tab,.tableft{
+	display: inline-block;
+}
+
+/* 女武神热度榜 */
+.tableft{
+	float: right;
+	width: 280px;
+	margin-top: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 10px;/* 方块圆角 */
+}
+.tableft-list{
+	height: 45px;
+	margin-left: 15px;
+	position: relative;
+	top: 10px;
+}
+.tableft-list a{
+	color: #000000;
+	margin-left: 5px;
+}
+.tableft-list a:hover{
+	color: #FF7F50;
+}
+.tableft-list p{
+	display:inline;
+	color: #FF7F50;
+}
+
+/* tab菜单下方 */
+.tabdown{
+	height: 20px;
+	/* background-color: #FF7F50; */
+}
+.tabdown img{
+	width: 156.6px;
+	border-radius: 5px;/* 方块圆角 */
+}
+
+.tabdown li{
+	float: left;
+	height: 260px;
+	margin-right: 10px;
+}
+.tabdown a{
+	font-size: 10px;
+	color: #000000;
+}
+.tabdown a:hover{color: coral;}
+
+
+/* --------主页内容end--------- */
+
+/* --------- 底部栏 ---------- */
+.footer {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.06);
+	color: rgba(0, 0, 0, 0.06);
+	margin-top: 4px;
+	 /*border-top: 1px solid #F2F2F2; */
+}
+.footer-liebiao{
+	padding-top: 15px;
+	height: 100px;
+	width: 1000px;
+}
+.footer-liebiao2{
+	padding-top: 15px;
+	height: 100px;
+	width: 1400px;
+}
+.neir h4{
+	color: #666666;
+}
+.footer-liebiao td{
+	width: 100px;
+}
+.guanyu {
+	float: left;
+	width: 370px;
+	height: 10px;
+	margin: 0 0px 0 50px;
+}
+.xieyi {
+	float: left;
+	width: 670px;
+	margin: 0 0px 0 550px;
+}
+.footer-infro {
+	margin-top: 20px;
+	font-family: '宋体';
+	/* padding-top: 30px; */
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
+}
+/* -------- 底部栏end --------- */
